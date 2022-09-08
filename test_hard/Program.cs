@@ -6,7 +6,7 @@ string Sum_Square()
 {
     int[] myarray = new int[10];
     Console.WriteLine("Введите число: ");
-    for(int j=0; j< myarray.Length; j++);
+    for(int j=0; j< myarray.Length; j++)
     {
         myarray[j] = Convert.ToInt32(Console.ReadLine());
     }
